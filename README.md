@@ -16,6 +16,5 @@ Enable Developer Mode by clicking the toggle switch next to Developer mode.
 
 Click the Load unpacked button and select the extension directory.
 
-Extensions page
-Extensions page (chrome://extensions)
+![](https://wd.imgix.net/image/BhuKGJaIeLNPW9ehns59NfwqKxF2/BzVElZpUtNE4dueVPSp3.png?auto=format&w=439)  
 Ta-da! The extension has been successfully installed. Because no extension icons were included in the manifest, a generic icon will be created for the extension.
