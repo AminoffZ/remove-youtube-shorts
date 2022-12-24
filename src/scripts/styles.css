@@ -1,4 +1,0 @@
-ytd-grid-video-renderer:has(a[href*="shorts"]),
-ytd-rich-section-renderer:has(ytd-rich-shelf-renderer[is-shorts]) {
-  display: none !important;
-}
