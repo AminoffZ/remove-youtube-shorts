@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Remove YouTube Shorts",
+  "version": "0.1.0",
+  "web_accessible_resources": ["script.js"],
+  "content_scripts": [
+    {
+      "matches": ["https://*.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "./images/icon256.png"
+  }
+}
