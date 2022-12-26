@@ -1,4 +1,5 @@
 <img align="right" width="100" height="100" src="https://raw.githubusercontent.com/AminoffZ/remove-youtube-shorts/main/dist/images/icon256.png">  
+
 (Currently unpacked) Extension to remove YouTube-recommended "Shorts" videos. The __Shorts__ section on the homepage and channels still exists and works as normal.  
 
 Works on Chromium-based browsers. 
