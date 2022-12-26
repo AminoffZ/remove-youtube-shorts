@@ -1,9 +1,12 @@
 /* We inject style */
-const style: HTMLStyleElement = document.createElement("style");
-style.textContent = `
+const styleElement: HTMLStyleElement = document.createElement("style");
+styleElement.textContent = `
 ytd-grid-video-renderer:has(a[href*="shorts"]),
-ytd-rich-section-renderer:has(ytd-rich-shelf-renderer[is-shorts]) {
+ytd-video-renderer:has(a[href*="shorts"]),
+ytd-rich-section-renderer:has(ytd-rich-shelf-renderer[is-shorts]),
+ytd-item-section-renderer:has(yt-horizontal-list-renderer):has(a[href*="shorts"])
+{
   display: none !important;
 }
 `;
-(document.head || document.documentElement).appendChild(style);
+(document.head || document.documentElement).appendChild(styleElement);
