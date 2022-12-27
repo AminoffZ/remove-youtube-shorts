@@ -7,6 +7,9 @@ Works on Chromium-based browsers.
 <img align="middle" width="640px" height="400px" src="https://raw.githubusercontent.com/AminoffZ/remove-youtube-shorts/main/images/screenshot.png">
 </p>
 
+# How is this better than existing solutions?
+This extension works by injecting a CSS file when loading YouTube which means that the script is run only once per session and does not run any Javascript after that, making it more lightweight. The size is also more than 5 times smaller.
+
 # How to install
 [Detailed Version](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/)
 
