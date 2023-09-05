@@ -1,6 +1,8 @@
+[![Static Badge](https://img.shields.io/badge/chrome-v0.1.1-blue?logo=googlechrome&logoColor=blue&labelColor=white&color=blue)](https://chrome.google.com/webstore/detail/remove-youtube-shorts/nbphaofmhmlcflappkbmlbflimanbhkg)
+
 <img align="right" width="100" height="100" src="https://raw.githubusercontent.com/AminoffZ/remove-youtube-shorts/main/dist/images/icon256.png">  
 
-(Currently unpacked) Extension to remove YouTube-recommended "Shorts" videos. The __Shorts__ section on the homepage and channels still exists and works as normal.  
+Extension to remove YouTube-recommended "Shorts" videos. The __Shorts__ section on the homepage and channels still exists and works as normal.  
 
 Works on Chromium-based browsers. 
 <p align="center">
