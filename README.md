@@ -1,6 +1,6 @@
 [![Static Badge](https://img.shields.io/badge/chrome-v0.1.1-blue?logo=googlechrome&logoColor=blue&labelColor=white&color=blue)](https://chrome.google.com/webstore/detail/remove-youtube-shorts/nbphaofmhmlcflappkbmlbflimanbhkg)
 
-<img align="right" width="100" height="100" src="https://raw.githubusercontent.com/AminoffZ/remove-youtube-shorts/main/dist/images/icon256.png">
+<img align="right" min-widtH="100" height="100" src="https://raw.githubusercontent.com/AminoffZ/remove-youtube-shorts/main/dist/images/icon256.png">
 
 ### PSA
 
@@ -12,13 +12,13 @@ Extension to remove YouTube-recommended "Shorts" videos. The **Shorts** section 
 
 Works on Chromium-based browsers.
 
-<p align="center">
-<img align="middle" width="640px" height="400px" src="https://raw.githubusercontent.com/AminoffZ/remove-youtube-shorts/main/images/screenshot.png">
-</p>
+<img src="https://raw.githubusercontent.com/AminoffZ/remove-youtube-shorts/main/images/screenshot.jpg">
 
 # How is this better than existing solutions?
 
 This extension works by injecting a CSS file when loading YouTube which means that the script is run only once per session and does not run any Javascript after that, making it more lightweight. The size is also more than 5 times smaller.
+
+<hr>
 
 # How to install
 
