@@ -1,18 +1,27 @@
 [![Static Badge](https://img.shields.io/badge/chrome-v0.1.1-blue?logo=googlechrome&logoColor=blue&labelColor=white&color=blue)](https://chrome.google.com/webstore/detail/remove-youtube-shorts/nbphaofmhmlcflappkbmlbflimanbhkg)
 
-<img align="right" width="100" height="100" src="https://raw.githubusercontent.com/AminoffZ/remove-youtube-shorts/main/dist/images/icon256.png">  
+<img align="right" width="100" height="100" src="https://raw.githubusercontent.com/AminoffZ/remove-youtube-shorts/main/dist/images/icon256.png">
 
-Extension to remove YouTube-recommended "Shorts" videos. The __Shorts__ section on the homepage and channels still exists and works as normal.  
+### PSA
 
-Works on Chromium-based browsers. 
+There will probably not be any updates to the official [Chrome Web Store](https://chrome.google.com/webstore/detail/remove-youtube-shorts/nbphaofmhmlcflappkbmlbflimanbhkg) version of this plugin since Google keeps blocking them for: _Spam and Placement in the Store_ 🤔
+
+# Remove YouTube Shorts
+
+Extension to remove YouTube-recommended "Shorts" videos. The **Shorts** section on the homepage and channels still exists and works as normal.
+
+Works on Chromium-based browsers.
+
 <p align="center">
 <img align="middle" width="640px" height="400px" src="https://raw.githubusercontent.com/AminoffZ/remove-youtube-shorts/main/images/screenshot.png">
 </p>
 
 # How is this better than existing solutions?
+
 This extension works by injecting a CSS file when loading YouTube which means that the script is run only once per session and does not run any Javascript after that, making it more lightweight. The size is also more than 5 times smaller.
 
 # How to install
+
 [Detailed Version](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/)
 
 Download the dist folder.
@@ -29,7 +38,8 @@ Click the Load unpacked button and select the extension directory.
 ![](https://wd.imgix.net/image/BhuKGJaIeLNPW9ehns59NfwqKxF2/BzVElZpUtNE4dueVPSp3.png?auto=format&w=439)  
 Ta-da! The extension has been successfully installed. Because no extension icons were included in the manifest, a generic icon will be created for the extension.
 
-# License  
+# License
+
 MIT License
 
 Copyright (c) 2022 AminoffZ
